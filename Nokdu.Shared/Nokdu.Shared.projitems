@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>08156424-8BDA-4974-9F64-DC2DB7CFA8F5</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Nokdu.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ByteBufferPool.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\DatagramClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\DatagramServer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\IClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\ISenderReceiver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\IServer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\ISession.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\PacketSerializer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\StreamClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\StreamServer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Skeleton\MicroProcess.cs" />
+  </ItemGroup>
+</Project>
