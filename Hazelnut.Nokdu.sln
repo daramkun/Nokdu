@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hazelnut.Nokdu", "Hazelnut.Nokdu\Hazelnut.Nokdu.csproj", "{52CFC1C2-991C-4B23-9EBF-CD68252B91EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hazelnut.Nokdu.TestProgram", "Hazelnut.Nokdu.TestProgram\Hazelnut.Nokdu.TestProgram.csproj", "{99B357C4-6BF8-4DDF-A5C2-52902572BB32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52CFC1C2-991C-4B23-9EBF-CD68252B91EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52CFC1C2-991C-4B23-9EBF-CD68252B91EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52CFC1C2-991C-4B23-9EBF-CD68252B91EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52CFC1C2-991C-4B23-9EBF-CD68252B91EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99B357C4-6BF8-4DDF-A5C2-52902572BB32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B357C4-6BF8-4DDF-A5C2-52902572BB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99B357C4-6BF8-4DDF-A5C2-52902572BB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B357C4-6BF8-4DDF-A5C2-52902572BB32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
