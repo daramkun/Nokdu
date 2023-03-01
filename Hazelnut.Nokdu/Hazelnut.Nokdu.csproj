@@ -1,9 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+        <Title>Nokdu</Title>
+        <Authors>Jin Jae-yeon</Authors>
+        <Copyright>Copyright ⓒ 2023 Jin Jae-yeon</Copyright>
+        <PackageProjectUrl>https://github.com/daramkun/Nokdu</PackageProjectUrl>
+        <PackageLicenseUrl></PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/daramkun/Nokdu</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Company>Hazelnut</Company>
+        <Product>Nokdu</Product>
     </PropertyGroup>
 
 </Project>
